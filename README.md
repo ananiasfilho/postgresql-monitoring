@@ -57,3 +57,27 @@ scrape_configs:
       - targets: ["postgres-exporter:9187"]
 
 ```
+
+## Grafana
+
+Add a Prometheus DataSource
+
+```
+
+Host: http://prometheus:9090
+
+Set as default
+
+```
+
+### Grafana Dashboard Template
+
+```
+
+Import grafana dashboard template id: 9628
+
+```
+
+https://grafana.com/grafana/dashboards/9628
+
+
